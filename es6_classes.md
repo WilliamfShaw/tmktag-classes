@@ -147,7 +147,7 @@ function Bar () {};
 Bar.prototype = new Foo();
 
 var bar = new Bar();
-bar.bar = 'BAR'
+bar.bar // 'BAR'
 ```
 
 ### ES6 Inheritance
@@ -190,15 +190,15 @@ class Foo {
         this.bar = 'BAR';
     }
 
-	sayBar() {
-		return `I'm saying ${this.bar}`;
+    sayBar() {
+        return `I'm saying ${this.bar}`;
     }
 }
 
 class Bar extends Foo {
     constructor() {
-		super();
-		this.foo = 'FOO';
+        super();
+        this.foo = 'FOO';
     }
 }
 
