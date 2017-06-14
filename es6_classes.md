@@ -211,6 +211,31 @@ bar.sayBar(); // 'I'm saying BAR'
 
 - What would happen if we removed the `super` keyword from the child class?
 
+# Notable
+
+### A Class is just a function
+```js
+class Foo {
+    constructor () {
+        this.bar = 'BAR';
+    }
+}
+
+typeof Foo // function
+```
+
+### Classes do not hoist
+
+```js
+var foo = new Foo(); // Uncaught ReferenceError: Foo is not defined
+
+class Foo {
+    constructor () {
+        this.bar = 'BAR';
+    }
+}
+```
+
 # Exercise
 
 ### Convert the following to ES6 classes P1
