@@ -75,7 +75,7 @@ class Employee {
 <details>
 <summary>Constructor</summary>
 
-- The `constructor` keyword is a special method reserved for creating and initializing an object with ES6 classes. This method may only be used once inside of a class, if it is used twice it will throw a reference error. The context of `this` in reference to the `contructor` is the specific instance of the resulting object.
+- The `constructor` keyword is a special method reserved for creating and initializing an object with ES6 classes. This method may only be used once inside of a class, if it is used twice it will throw an error. The context of `this` in reference to the `contructor` is the specific instance of the resulting object.
 
 ```js
 //BAD
