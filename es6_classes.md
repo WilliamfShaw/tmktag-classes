@@ -1,7 +1,7 @@
 # ES6 Classes
 
 ### Learning Objectives
-- Compare and Contrast ES5 constructor funtions to ES6 class declarations
+- Compare and Contrast ES5 constructor functions to ES6 class declarations
 - Identify the important key words in ES6 classes
 - Convert legacy constructor functions to modern ES6 classes
 - Implement inheritance using ES6 classes
